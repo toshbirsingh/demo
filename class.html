@@ -1,0 +1,16 @@
+<html>
+    <script>
+
+        let car2 = {
+            name : "BMW",
+            price : 875655
+        };
+
+        let car3 = {};
+
+        for(let property in car2){
+            car3[property] = car2[property];
+        }
+        console.log(JSON.stringify(car3 ))
+    </script>
+</html>
